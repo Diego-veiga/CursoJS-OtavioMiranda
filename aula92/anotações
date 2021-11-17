@@ -1,0 +1,10 @@
+babel funciona como um transpilador de codigo. Este processo se faz necessário para que possamos manter 
+a funcionalidade netre os navegadores pois nem todos suportm o javaScripot moderno.
+
+Para instalar o mesmo basta executar o seguinte comando: npm install --save-dev @babel/cli @babel/preset-env @babel/
+
+Para executar o manualmente basta executar o seguinte comando : npx babel main.js -o bundle.js --presets=@babel/env
+
+Para criar um script de execução  automatico bas criar uma tag e colocar o seguinte comando : babel ./main.js -o ./bundle.js --presets=@babel/env -w
+
+
